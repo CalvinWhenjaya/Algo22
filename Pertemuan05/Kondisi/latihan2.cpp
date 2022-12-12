@@ -13,7 +13,8 @@ int main (){
     cout<<"3. Standard (500.000)"<<endl;
     cout<<"4. Melati (250.000)"<<endl;
     cout<<"--------------------------------"<<endl;
-    cout<<"Masukkan Nama Anda: ";cin>>nama;
+    cout<<"Masukkan Nama Anda: ";
+    getline(cin,nama);
     cout<<"Masukkan Jenis Kamar: ";cin>>jeniskamar;
     cout<<"Lama Inap: ";cin>>lamainap;
     cout<<"Dengan Sarapan (y/n) 50rb/hari: ";cin>>y;
